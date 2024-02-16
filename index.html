@@ -4,9 +4,204 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
-    <a href="./main.html">Main</a>
+    <header class="header">
+      <div class="header_logo">
+        <h1>Kvoka</h1>
+        <h1 class="r_logo">Test</h1>
+      </div>
+      <div class="navigation">
+        <button class="nav_btn"><a href="/index.html" class="nav_link">Home</a></button>
+        <button class="nav_btn"><a href="/about.html" class="nav_link">About</a></button>
+        <button class="nav_btn"><a href="/portfolio.html" class="nav_link">Portfolio</a></button>
+      </div>
+    </header>
+    <div class="main">
+      <div class="main_card">
+        <div class="main_card_text">
+          <h1>Let’s make your project a success</h1>
+          <h2>
+            Listed as one of Toronto's top Video Production Companies, SPG Media is known for our award winning video
+            production style specializing in creating high-quality film content.
+          </h2>
+          <div class="main_card_btn_section">
+            <button class="main_card_btn1">Let's get started</button>
+            <div class="main_card_btn2" onmouseover="animateButtonOn()" onmouseout="animateButtonOff()">
+              <img src="./public/icons8-eye-60.png" alt="" id="main_btn_icon" />
+              <p id="main_btn_text">Look at our projects</p>
+            </div>
+          </div>
+        </div>
+        <div class="main_video">
+          <div class="main_video_container">
+            <video width="700" height="430" controls class="video">
+              <source src="./public/japan-video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel">
+      <ul class="carousel__list">
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/1R0C0QRB/caption.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Anthony Lee</h2>
+              <h3 class="user__title">Archetypal Professor of Recognition</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/sXh8CGrC/Kyiv.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Alicia Chevalier</h2>
+              <h3 class="user__title">Corporate Usability Analyst</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/cLLb4bSm/Center-New-York.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Nate Boucher</h2>
+              <h3 class="user__title">Customer Impact Officer</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/nh3N4tkg/New-Zeland.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Leah Harris</h2>
+              <h3 class="user__title">Designer and Bandit</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/Kj50mnpw/London.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Angelina Laurent</h2>
+              <h3 class="user__title">Oracle for Inspiration</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0" data-active="data-active">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/ncZWNLSN/Japan-2107x1406.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Gal Gadot</h2>
+              <h3 class="user__title">Acting Designer and Consultant</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/rFJHTLvs/Lviv.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Albert Sørensen</h2>
+              <h3 class="user__title">Neural Big Shot of Anticipation</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/jjGgcqJg/Seul.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Candice Marchand</h2>
+              <h3 class="user__title">Mindful Realist of Motion Laws</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/0QDtBgY8/Venezia.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Jennifer Salazar</h2>
+              <h3 class="user__title">Design Habitué</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/D0hCVC61/paris.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Antonin Dufour</h2>
+              <h3 class="user__title">Human-Centered Designer</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/TY68G017/China.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Melissa Simon</h2>
+              <h3 class="user__title">International Infrastructure Analyst</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/4yvSmCy8/India.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Brandon Murray</h2>
+              <h3 class="user__title">Central Functionality VP</h3>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="carousel__nav">
+        <button class="prev"></button>
+        <button class="next"></button>
+      </div>
+    </div>
+
+    <div class="main_about">
+      <h1 class="main_about_title">Screening your vision with the right frame of mind</h1>
+      <div class="main_about_section">
+        <div class="main_about_section_cards">
+          <div class="sect_card"></div>
+          <div class="sect_card"></div>
+          <div class="sect_card"></div>
+        </div>
+        <div class="main_about_section_photos"></div>
+      </div>
+    </div>
+
+    <footer></footer>
+
+    <script src="./scripts/animation.js"></script>
+    <script src="./scripts/carousel.js"></script>
   </body>
 </html>

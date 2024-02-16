@@ -1,0 +1,104 @@
+.main {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 120px 15% 0%;
+
+  .main_card {
+    width: 100%;
+    height: 700px;
+    box-shadow: rgba(9, 5, 19, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 25px;
+    background: linear-gradient(125deg, rgb(35, 32, 42) 43%, rgb(30, 27, 36) 60%);
+
+    .main_card_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0px 120px;
+
+      h1 {
+        font-size: 70px;
+        margin: 0px;
+      }
+      h2 {
+        font-weight: 400;
+        color: rgb(194, 198, 221);
+      }
+
+      .main_card_btn_section {
+        display: flex;
+        align-items: center;
+
+        .main_card_btn1,
+        .main_card_btn2 {
+          height: 55px;
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: 18px;
+          cursor: pointer;
+          padding: 0px;
+          border-radius: 15px;
+          border: none;
+          outline: none;
+          transition: all 0.3s ease 0s;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &:active {
+            transform: translateY(15px);
+          }
+        }
+
+        .main_card_btn1 {
+          width: 160px;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+          &:active {
+            transform: translateY(15px);
+          }
+        }
+
+        .main_card_btn2 {
+          background-color: rgb(26, 23, 31);
+          width: 185px;
+          margin-left: 15px;
+          position: relative;
+          overflow: hidden;
+
+          #main_btn_icon {
+            position: absolute;
+            left: -30%;
+            width: 25px;
+            height: 25px;
+            transition: all 0.3s ease 0s;
+          }
+          #main_btn_text {
+            transition: all 0.3s ease 0s;
+          }
+        }
+      }
+    }
+
+    .main_video {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 120px;
+
+      .main_video_container {
+        z-index: 1000;
+        border-radius: 25px;
+        overflow: hidden;
+        .video {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
