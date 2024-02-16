@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/carousel.css" />
+    <link rel="stylesheet" href="styles/main_about.css" />
   </head>
   <body>
     <header class="header">
@@ -89,7 +90,7 @@
             <div class="carousel__contents">
               <h2 class="user__name">Leah Harris</h2>
               <h3 class="user__title">Designer and Bandit</h3>
-            </div>
+            </div
           </div>
         </li>
         <li class="carousel__item" tabindex="0">
@@ -191,15 +192,83 @@
       <h1 class="main_about_title">Screening your vision with the right frame of mind</h1>
       <div class="main_about_section">
         <div class="main_about_section_cards">
-          <div class="sect_card"></div>
-          <div class="sect_card"></div>
-          <div class="sect_card"></div>
+          <div class="sect_card">
+            <div class="sect_card_img">
+              <img src="./public/icons8-pen-48.png" alt="" />
+            </div>
+            <div class="sect_card_text">
+              <h2>Concept Design</h2>
+              <p>
+                We work closely with you to understand your goals, and design a concept that will effectively
+                communicate your message
+              </p>
+            </div>
+          </div>
+          <div class="sect_card_left">
+            <div class="sect_card_img">
+              <img src="./public/icons8-camera-48 (1).png" alt="" />
+            </div>
+            <div class="sect_card_text">
+              <h2>Filming & production</h2>
+              <p>
+                We handle all aspects of video production, including setting up, scouting locations, and coordinating
+                talent
+              </p>
+            </div>
+          </div>
+          <div class="sect_card">
+            <div class="sect_card_img">
+              <img src="./public/icons8-film-48.png" alt="" />
+            </div>
+            <div class="sect_card_text">
+              <h2>Post-production</h2>
+              <p>
+                We provide the necessary resources, support, and direction to ensure that their projects are completed
+                efficiently
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="main_about_section_photos"></div>
+        <div class="main_about_section_photos">
+          <img src="./public/m_ab_big.jpg" alt="" class="main_about_section_ph_big" />
+          <div class="main_about_section_two_ph">
+            <div>
+              <img src="./public/m_ab_1.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./public/m_ab_2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer_info_1">
+        <div class="header_logo">
+          <h1>Kvoka</h1>
+          <h1 class="r_logo">Test</h1>
+        </div>
+        <h4>© 2024 Kvoka Test.</h4>
+        <h4>All rights reserved.</h4>
+      </div>
+      <div class="footer_info_2">
+        <h2>Follow us on social media</h2>
+        <div class="footer_btns">
+          <button onclick="location.href='https://github.com/DenisRudiy'"><img src="./public/icons8-github-50.png" alt="GitHub" ></button>
+          <button onclick="location.href='https://www.instagram.com/denisko32/'"><img src="./public/icons8-instagram-50.png" alt="Instagram"></button>
+          <button onclick="location.href='www.linkedin.com/in/denis-rudiy-755288289'"><img src="./public/icons8-linkedin-50.png" alt="Linkedin"></button>
+        </div>
+      </div>
+      <div class="footer_info_3">
+        <h2>Send your feedback</h2>
+        <div>
+          <input type="text" placeholder="Name"/>
+          <textarea type="text" placeholder="Type your feedback..."></textarea>
+          <button>Send</button>
+        </div>
+      </div>
+    </footer>
 
     <script src="./scripts/animation.js"></script>
     <script src="./scripts/carousel.js"></script>

@@ -2,7 +2,7 @@
   width: 70%;
   display: flex;
   justify-content: center;
-  padding: 120px 15% 0%;
+  padding: 160px 15% 0%;
 }
 .main .main_card {
   width: 100%;
@@ -22,6 +22,7 @@
 .main .main_card .main_card_text h1 {
   font-size: 70px;
   margin: 0px;
+  text-shadow: #493d4f 3px 5px 2px;
 }
 .main .main_card .main_card_text h2 {
   font-weight: 400;
