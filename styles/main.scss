@@ -20,12 +20,13 @@
       padding: 0px 120px;
 
       h1 {
-        font-size: 70px;
+        font-size: 3vw;
         margin: 0px;
         text-shadow: #493d4f 3px 5px 2px;
       }
       h2 {
         font-weight: 400;
+        font-size: 1.2vw;
         color: rgb(194, 198, 221);
       }
 
@@ -98,6 +99,53 @@
         .video {
           width: 100%;
           height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .main {
+    width: 80%;
+    padding: 160px 10% 0%;
+
+    .main_card {
+      height: 600px;
+      .main_card_text {
+        h1 {
+          font-size: 3vw;
+        }
+        h2 {
+          font-weight: 400;
+          font-size: 1.4vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .main {
+    width: 80%;
+    padding: 160px 10% 0%;
+
+    .main_card {
+      height: 500px;
+      .main_card_text {
+        h1 {
+          font-size: 2.5vw;
+        }
+        h2 {
+          font-weight: 400;
+          font-size: 1.2vw;
+        }
+        .main_card_btn_section {
+          .main_card_btn1,
+          .main_card_btn2 {
+            height: 50px;
+            font-size: 16px;
+          }
         }
       }
     }

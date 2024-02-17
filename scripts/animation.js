@@ -14,3 +14,18 @@ function animateButtonOff() {
   btn.style.width = "185px";
   btn_text.style.paddingLeft = "0px";
 }
+
+const cont_btn = document.querySelector(".contact_btn");
+const cont_icon = document.getElementById("contact_btn_icon");
+const cont_btn_text = document.getElementById("contact_btn_text");
+
+function animateContButtonOn() {
+  cont_icon.style.left = "10px";
+  cont_btn.style.width = "205px";
+  cont_btn_text.style.paddingLeft = "25px";
+}
+function animateContButtonOff() {
+  cont_icon.style.left = "-30%";
+  cont_btn_text.style.width = "185px";
+  cont_btn_text.style.paddingLeft = "0px";
+}

@@ -96,8 +96,13 @@ async function fetchData(id) {
     item = data.projects[id];
 
     const itemNameElement = document.getElementById("item_name");
+    const itemDescriptionElement = document.getElementById("item_description");
+    const itemVideoElement = document.getElementById("video");
 
     itemNameElement.textContent = item.name;
+    itemDescriptionElement.textContent = item.description;
+    itemVideoElement.querySelector("source").src = item.video;
+    itemVideoElement.load();
   } catch (error) {
     console.error("Error fetching data:", error);
   }

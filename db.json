@@ -2,43 +2,63 @@
   "projects": [
     {
       "id": 0,
-      "name": "Anthony Lee"
+      "name": "Tokyo",
+      "description": "Welcome to Tokyo, a metropolis where tradition and innovation combine in a dance of megapixels and cherry blossoms. From gleaming skyscrapers swaying under the weight of their modernity to narrow streets where the branches of centuries-old sakura trees whisper in the breeze, here every frame is an interweaving of history and modernity. Let's go on a fascinating journey through the streets of this metropolis, where every moment is an incredible harmony between the traditions of the past and the rhythm of the future.",
+      "video": "./public/Tokyo.mp4"
     },
     {
       "id": 1,
-      "name": "Alicia Chevalier"
+      "name": "Kyiv",
+      "description": "Welcome to Kiev, the capital of Ukraine, where modernity is intertwined with historical heritage. This city stretches along the banks of the Dnieper River, offering an exciting atmosphere and a wealth of cultural attractions. Walking the streets of Kiev, you'll plunge into centuries-old history, see majestic churches, magnificent parks and dynamic man-made landscapes. Immerse yourself in the atmosphere of Kiev, where every corner of the city keeps its unique story, ready to tell everyone who comes here to visit.",
+      "video": "./public/Kiyv.mp4"
     },
     {
       "id": 2,
-      "name": "Nate Boucher"
+      "name": "Center New-York",
+      "description": "Welcome to the world of New York City, where a storm of lights and sounds forms a unique symphony of urban life. Skyscrapers rising into the sky create a unique silhouette, while the street canyons of Manhattan channel energy and creativity. Times Square shines with bright lights and Central Park provides an oasis of greenery and peace amidst the concrete jungle. New York is a city of contrasts, where the old mixes with the new and every corner is full of possibilities. Let's dive into the pulsating atmosphere of the Big Apple together!",
+      "video": "./public/NewYork.mp4"
     },
     {
       "id": 3,
-      "name": "Angelina Laurent"
+      "name": "London",
+      "description": "Welcome to London, where history meets modernity and culture weaves the incredible landscape of this metropolis. The heart of Britain beats to the rhythm of its streets, and architectural icons like Big Ben and Tower Bridge soar to the skies as a reminder of its rich heritage. Parks such as Hyde Park invite strolls among the green alleys, and art and culture thrive in the many galleries and theaters. Let's explore the magic of London together!",
+      "video": "./public/London.mp4"
     },
     {
       "id": 4,
-      "name": "Gal Gadot"
+      "name": " Hokkaido",
+      "description": "Welcome to Hokkaido, the pearl of northern Japan. This beautiful island is known for its snow-capped beauty, mild climate and rich cultural heritage. Here you'll find volcanoes covered in fluffy snow, thermal springs to relax in, and endless meadows where horses graze. Hokkaido is also famous for its amazing cuisine, offering fresh seafood, delicate milk and exquisite ramen soups. Let's embark on a fascinating journey together on this amazing island where nature and tradition come together!",
+      "video": "./public/Hokkaido.mp4"
     },
     {
       "id": 5,
-      "name": "Leah Harris"
+      "name": "New Zeland",
+      "description": "Welcome to New Zealand, a magical local history where green valleys and picturesque landscapes create a symphony of nature. Here, majestic snow-capped mountains meet turquoise lake waters and the golden beaches of cozy bays are mesmerizing in their beauty. From ancient Maori legends to modern cities where life pulses to the rhythm of the ocean waves. Let's go on a fascinating journey through this amazing corner of the Earth, where every moment is an encounter with wonder and inspiring beauty.",
+      "video": "./public/NewZeland.mp4"
     },
     {
       "id": 6,
-      "name": "Albert Sørensen"
+      "name": "Lviv",
+      "description": "Welcome to Lviv, the pearl of Western Ukraine. This amazing city, steeped in history and atmosphere, invites you on a fascinating journey. Lviv is picturesque streets, majestic architectural monuments and cozy coffee shops where time seems to slow down. Lviv is a city where art, culture and hospitality merge into a unique experience. When you visit Lviv, you will be plunged into an atmosphere of fun, positivity and incredible inspiration.",
+      "video": "./public/Lviv.mp4"
     },
     {
       "id": 7,
-      "name": "Candice Marchand"
+      "name": "Seul",
+      "description": "Welcome to Seoul, a metropolis where modernity is intertwined with a rich cultural heritage. A constellation of bright neon lights and ancient temples, this city provides a unique journey between the past and the future. Seoul is a place where technology and tradition weave together in an amazing mosaic, offering each traveler a unique perspective on the modern face of Asia.",
+      "video": "./public/Seul.mp4"
     },
     {
       "id": 8,
-      "name": "Jennifer Salazar"
+      "name": "Venezia",
+      "description": "Welcome to Venice, the majestic city on the water. In this unique corner of Italy, famous for its unique architecture and romantic canals, every moment becomes a magical adventure. In Venice, time flows slowly, as if created to enjoy the beauty and inspiring atmosphere. Immerse yourself in the world of Italian romance, enjoy exquisite cuisine and feel the magic of Venice, which is like a dream come true.",
+      "video": "./public/Venice.mp4"
     },
     {
       "id": 9,
-      "name": "Antonin Dufour"
+      "name": "Paris",
+      "description": "Welcome to magical Paris - the city of light, love and refined elegance. The capital of France beckons with its impeccable style, romantic atmosphere and rich history. Paris is not just a city, it is a dream, the embodiment of romance and cultural heritage. Here you can enjoy exquisite cuisine, stroll along the banks of the Seine, admire the night lights and feel the unique charm that makes Paris eternal and unique.",
+      "video": "./public/Paris.mp4"
     }
   ]
 }
