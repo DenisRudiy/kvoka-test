@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/carousel.css" />
-    <link rel="stylesheet" href="styles/main_about.css" />
+    <link rel="stylesheet" href="styles/portfolio_carousel.css" />
+    <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
     <header class="header">
@@ -21,6 +20,132 @@
         <button class="nav_btn"><a href="/portfolio.html" class="nav_link">Portfolio</a></button>
       </div>
     </header>
+
+    <div class="portfolio_header">
+      <h1>Check out some of our recent projects</h1>
+    </div>
+    <div class="carousel">
+      <ul class="carousel__list">
+        <li class="carousel__item" tabindex="0">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/1R0C0QRB/caption.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Anthony Lee</h2>
+              <h3 class="user__title">Archetypal Professor of Recognition</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="1">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/sXh8CGrC/Kyiv.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Alicia Chevalier</h2>
+              <h3 class="user__title">Corporate Usability Analyst</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="2">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/cLLb4bSm/Center-New-York.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Nate Boucher</h2>
+              <h3 class="user__title">Customer Impact Officer</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="3">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/Kj50mnpw/London.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Angelina Laurent</h2>
+              <h3 class="user__title">Oracle for Inspiration</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="4">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/ncZWNLSN/Japan-2107x1406.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Gal Gadot</h2>
+              <h3 class="user__title">Acting Designer and Consultant</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="5" data-active="data-active">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/nh3N4tkg/New-Zeland.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Leah Harris</h2>
+              <h3 class="user__title">Designer and Bandit</h3>
+            </div
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="6">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/rFJHTLvs/Lviv.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Albert Sørensen</h2>
+              <h3 class="user__title">Neural Big Shot of Anticipation</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="7">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/jjGgcqJg/Seul.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Candice Marchand</h2>
+              <h3 class="user__title">Mindful Realist of Motion Laws</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="8">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/0QDtBgY8/Venezia.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Jennifer Salazar</h2>
+              <h3 class="user__title">Design Habitué</h3>
+            </div>
+          </div>
+        </li>
+        <li class="carousel__item" tabindex="9">
+          <div class="carousel__box">
+            <div class="carousel__image">
+              <img src="https://i.postimg.cc/D0hCVC61/paris.jpg" width="480" height="720" />
+            </div>
+            <div class="carousel__contents">
+              <h2 class="user__name">Antonin Dufour</h2>
+              <h3 class="user__title">Human-Centered Designer</h3>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="carousel__nav">
+        <button class="prev"></button>
+        <button class="next"></button>
+      </div>
+    </div>
+
+    <div class="car_item_details">
+      <h1 id="car_item_name"></h1>
+    </div>
 
     <footer class="footer">
       <div class="footer_info_1">
@@ -54,5 +179,7 @@
         </div>
       </div>
     </footer>
+    <!-- <script src="./scripts/carousel.js"></script> -->
+    <script src="./scripts/portfolio_carousel.js"></script>
   </body>
 </html>

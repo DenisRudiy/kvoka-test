@@ -6,6 +6,7 @@ const $next = $g(".next");
 const $list = $g(".carousel__list");
 let auto;
 let pauser;
+const names = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
 
 const getActiveIndex = () => {
   const $active = $g("[data-active]");
@@ -92,3 +93,16 @@ $next.addEventListener("click", handleNextClick);
 $prev.addEventListener("click", handlePrevClick);
 $list.addEventListener("focusin", handleSlideClick);
 $list.addEventListener("keyup", handleSlideKey);
+
+const handleItemClick = (e) => {
+  pauseAuto();
+  const $clickedSlide = e.target.closest(".carousel__item");
+  const tabIndexValue = $clickedSlide.getAttribute("tabindex");
+
+  console.log(`Clicked on ${tabIndexValue}`);
+  console.log(names[parseInt(tabIndexValue)]);
+};
+
+$q(".carousel__item").forEach(($slide) => {
+  $slide.addEventListener("click", handleItemClick);
+});
