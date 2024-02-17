@@ -6,7 +6,7 @@ const $next = $g(".next");
 const $list = $g(".carousel__list");
 let auto;
 let pauser;
-const names = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+let item;
 
 const getActiveIndex = () => {
   const $active = $g("[data-active]");
@@ -89,6 +89,20 @@ const handleSlideKey = (e) => {
   }
 };
 
+async function fetchData(id) {
+  try {
+    const response = await fetch("db.json");
+    const data = await response.json();
+    item = data.projects[id];
+
+    const itemNameElement = document.getElementById("item_name");
+
+    itemNameElement.textContent = item.name;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+}
+
 $next.addEventListener("click", handleNextClick);
 $prev.addEventListener("click", handlePrevClick);
 $list.addEventListener("focusin", handleSlideClick);
@@ -99,10 +113,13 @@ const handleItemClick = (e) => {
   const $clickedSlide = e.target.closest(".carousel__item");
   const tabIndexValue = $clickedSlide.getAttribute("tabindex");
 
-  console.log(`Clicked on ${tabIndexValue}`);
-  console.log(names[parseInt(tabIndexValue)]);
+  fetchData(parseInt(tabIndexValue));
 };
 
 $q(".carousel__item").forEach(($slide) => {
   $slide.addEventListener("click", handleItemClick);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetchData(5);
 });

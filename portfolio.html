@@ -143,8 +143,33 @@
       </div>
     </div>
 
-    <div class="car_item_details">
+    <div id="car_item_details">
       <h1 id="car_item_name"></h1>
+    </div>
+
+    <div id="car_item_details">
+      <div id="car_item_card">
+        <div id="car_item_text">
+          <h1 id="item_name"></h1>
+          <h2 id="item_description">
+            Listed as one of Toronto's top Video Production Companies, SPG Media is known for our award winning video
+            production style specializing in creating high-quality film content.
+          </h2>
+          <div class="main_card_btn_section">
+            <div class="main_card_btn2" onmouseover="animateButtonOn()" onmouseout="animateButtonOff()">
+              <img src="./public/icons8-eye-60.png" alt="" id="main_btn_icon" />
+              <p id="main_btn_text">Look at our team!</p>
+            </div>
+          </div>
+        </div>
+        <div id="main_video">
+          <div id="main_video_container">
+            <video width="700" height="430" controls id="video">
+              <source src="./public/japan-video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
@@ -179,7 +204,7 @@
         </div>
       </div>
     </footer>
-    <!-- <script src="./scripts/carousel.js"></script> -->
     <script src="./scripts/portfolio_carousel.js"></script>
+    <script src="./scripts/animation.js"></script>
   </body>
 </html>
