@@ -126,7 +126,7 @@ body {
         transition: 0.3s all;
 
         &:hover {
-          transform: scale(1.1);
+          transform: rotate(360deg);
         }
         &:active {
           transform: translateY(15px);

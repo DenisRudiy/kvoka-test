@@ -1,0 +1,153 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+
+  h1 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 60px;
+  }
+  p {
+    margin: 20px;
+    font-size: 20px;
+    color: #c2c6dd;
+    width: 700px;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 25px;
+  }
+}
+
+.about_details {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  .about_photo_section {
+    img {
+      width: 450px;
+      height: auto;
+      border-radius: 25px;
+      transition: 0.3s all;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .about_details_section {
+    h1 {
+      margin: 0;
+      margin-top: 10px;
+      font-size: 65px;
+    }
+    p {
+      margin: 20px 0px;
+      font-size: 22px;
+      color: #c2c6dd;
+      width: 850px;
+    }
+
+    .about_details_cards {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      .about_card {
+        width: 400px;
+
+        .about_card_header {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          .card_header_img_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55px;
+            height: 55px;
+            background: linear-gradient(125deg, rgb(35, 32, 42) 43%, rgb(30, 27, 36) 60%);
+            box-shadow: rgba(9, 5, 19, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            border-radius: 15px;
+            transition: 0.3s all;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+            img {
+              width: 35px;
+              height: 35px;
+            }
+          }
+        }
+        p {
+          margin: 20px 0px;
+          font-size: 22px;
+          color: #c2c6dd;
+          width: 400px;
+        }
+      }
+    }
+  }
+}
+
+.our_team {
+  padding: 0% 10%;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 65px;
+  }
+  p {
+    margin: 20px 0px;
+    font-size: 22px;
+    color: #c2c6dd;
+    width: 800px;
+    text-align: center;
+  }
+  .our_team_section {
+    margin-top: 60px;
+    .our_team_row {
+      display: grid;
+      margin-top: 30px;
+      grid-template-columns: 30% 30% 30%;
+      gap: 5%;
+      .our_team_item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        div {
+          overflow: hidden;
+          height: 480px;
+          width: 480px;
+          border-radius: 25px;
+          transition: 0.3s all;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.03);
+          }
+        }
+        h2 {
+          margin: 10px;
+        }
+        h4 {
+          margin: 0;
+          color: #c2c6dd;
+        }
+      }
+    }
+  }
+}

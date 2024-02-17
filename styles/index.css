@@ -121,7 +121,7 @@ body input[type=number] {
   transition: 0.3s all;
 }
 .footer .footer_info_2 .footer_btns button:hover {
-  transform: scale(1.1);
+  transform: rotate(360deg);
 }
 .footer .footer_info_2 .footer_btns button:active {
   transform: translateY(15px);

@@ -4,9 +4,164 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/about.css" />
   </head>
   <body>
-    <h1>Hello Main</h1>
-    <a href="./index.html">Home</a>
+    <header class="header">
+      <div class="header_logo">
+        <h1>Kvoka</h1>
+        <h1 class="r_logo">Test</h1>
+      </div>
+      <div class="navigation">
+        <button class="nav_btn"><a href="/index.html" class="nav_link">Home</a></button>
+        <button class="nav_btn"><a href="/about.html" class="nav_link">About</a></button>
+        <button class="nav_btn"><a href="/portfolio.html" class="nav_link">Portfolio</a></button>
+      </div>
+    </header>
+
+    <div class="about">
+      <h1>Picture perfect, video production.</h1>
+      <p>
+        Our team and process are both designed to give you the best video production experience both during and after
+        production.
+      </p>
+      <img src="./public/about.jpg" alt="" />
+    </div>
+
+    <div class="about_details">
+      <div class="about_photo_section">
+        <img src="./public/about2.jpg" alt="" />
+      </div>
+      <div class="about_details_section">
+        <h1>We shoot... for the stars.</h1>
+        <p>
+          Kvoka Test is not just a 'video production company'. We are also a film and TV production company. Using our
+          range of experience for working with partners such as Netflix, Amazon Prime and Daily Wire, we are able to
+          give your production the professional touch it deserves.
+        </p>
+        <div class="about_details_cards">
+          <div class="about_card">
+            <div class="about_card_header">
+              <div class="card_header_img_container">
+                <img src="./public/icons8-bulb-64.png" alt="" />
+              </div>
+              <h2>Dedicated creative</h2>
+            </div>
+            <p>A dedicated creative team to help bring your vision to life.</p>
+          </div>
+          <div class="about_card">
+            <div class="about_card_header">
+              <div class="card_header_img_container">
+                <img src="./public/icons8-winner-60.png" alt="" />
+              </div>
+              <h2>Industry leaders</h2>
+            </div>
+            <p>Working with some of the best in the film industry, our resources are unmatched.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="our_team">
+      <h1>Decades of experience in design and development</h1>
+      <p>
+        Our experienced leadership team has decades of experience in video production, concept design and marketing
+        implementation and planning.
+      </p>
+      <div class="our_team_section">
+        <div class="our_team_row">
+          <div class="our_team_item">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&amp;h=720&amp;q=80"
+                alt=""
+              />
+            </div>
+            <h2>Safeer Qureshi</h2>
+            <h4>CEO</h4>
+          </div>
+          <div class="our_team_item">
+            <div>
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?fit=crop&amp;h=720&amp;q=80" alt="" />
+            </div>
+            <h2>Rebecca S</h2>
+            <h4>VP - Operations</h4>
+          </div>
+          <div class="our_team_item">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?fit=crop&amp;h=720&amp;q=80"
+                alt=""
+              />
+            </div>
+            <h2>Aaron S</h2>
+            <h4>VP - Strategic Partnerships</h4>
+          </div>
+        </div>
+        <div class="our_team_row">
+          <div class="our_team_item">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1614204424926-196a80bf0be8?fit=crop&amp;h=720&amp;q=80"
+                alt=""
+              />
+            </div>
+            <h2>Artem M</h2>
+            <h4>Lead DOP</h4>
+          </div>
+          <div class="our_team_item">
+            <div>
+              <img src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?fit=crop&amp;h=720&amp;q=80" alt="" />
+            </div>
+            <h2>Rebecca S</h2>
+            <h4>VP - Operations</h4>
+          </div>
+          <div class="our_team_item">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1590086782792-42dd2350140d?fit=crop&amp;h=720&amp;q=80"
+                alt=""
+              />
+            </div>
+            <h2>Richard F</h2>
+            <h4>Lead production manager</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer_info_1">
+        <div class="header_logo">
+          <h1>Kvoka</h1>
+          <h1 class="r_logo">Test</h1>
+        </div>
+        <h4>© 2024 Kvoka Test.</h4>
+        <h4>All rights reserved.</h4>
+      </div>
+      <div class="footer_info_2">
+        <h2>Follow us on social media</h2>
+        <div class="footer_btns">
+          <button onclick="location.href='https://github.com/DenisRudiy'">
+            <img src="./public/icons8-github-50.png" alt="GitHub" />
+          </button>
+          <button onclick="location.href='https://www.instagram.com/denisko32/'">
+            <img src="./public/icons8-instagram-50.png" alt="Instagram" />
+          </button>
+          <button onclick="location.href='www.linkedin.com/in/denis-rudiy-755288289'">
+            <img src="./public/icons8-linkedin-50.png" alt="Linkedin" />
+          </button>
+        </div>
+      </div>
+      <div class="footer_info_3">
+        <h2>Send your feedback</h2>
+        <div>
+          <input type="text" placeholder="Name" />
+          <textarea type="text" placeholder="Type your feedback..."></textarea>
+          <button>Send</button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
