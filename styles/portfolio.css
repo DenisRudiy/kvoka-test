@@ -17,7 +17,7 @@
 }
 #car_item_details #car_item_card {
   width: 100%;
-  height: 700px;
+  height: 26vw;
   box-shadow: rgba(9, 5, 19, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -31,13 +31,14 @@
   padding: 0px 120px;
 }
 #car_item_details #car_item_card #car_item_text #item_name {
-  font-size: 70px;
+  font-size: 5vw;
   margin: 0px;
   text-shadow: #493d4f 3px 5px 2px;
 }
 #car_item_details #car_item_card #car_item_text #item_description {
   font-weight: 400;
   color: rgb(194, 198, 221);
+  font-size: 1vw;
 }
 #car_item_details #car_item_card #car_item_text .main_card_btn_section {
   display: flex;
@@ -90,4 +91,108 @@
 #car_item_details #car_item_card #main_video #main_video_container #video {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 1900px) {
+  #car_item_details {
+    width: 80%;
+    padding: 40px 10% 0%;
+  }
+  #car_item_details #car_item_card #car_item_text {
+    padding: 0px 80px;
+  }
+  #car_item_details #car_item_card #main_video {
+    padding-right: 80px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  #car_item_details {
+    width: 90%;
+    padding: 40px 5% 0%;
+  }
+  #car_item_details #car_item_card #car_item_text {
+    padding: 0px 40px;
+  }
+  #car_item_details #car_item_card #main_video {
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #car_item_details {
+    width: 80%;
+    padding: 40px 10% 0%;
+  }
+  #car_item_details #car_item_card {
+    width: 100%;
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+  }
+  #car_item_details #car_item_card #car_item_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #car_item_details #car_item_card #car_item_text #item_name {
+    font-size: 5vw;
+  }
+  #car_item_details #car_item_card #car_item_text #item_description {
+    font-size: 1.5vw;
+  }
+  #car_item_details #car_item_card #car_item_text .main_card_btn_section .main_card_btn2 {
+    height: 45px;
+    font-size: 16px;
+  }
+  #car_item_details #car_item_card #main_video {
+    padding: 0;
+  }
+  #car_item_details #car_item_card #main_video #main_video_container {
+    z-index: 1000;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  #car_item_details #car_item_card #main_video #main_video_container #video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .portfolio_header h1 {
+    font-size: 35px;
+  }
+  #car_item_details {
+    width: 90%;
+    padding: 20px 5% 0%;
+  }
+  #car_item_details #car_item_card {
+    height: 520px;
+    padding: 10px;
+  }
+  #car_item_details #car_item_card #car_item_text {
+    padding: 0;
+  }
+  #car_item_details #car_item_card #car_item_text #item_name {
+    font-size: 25px;
+  }
+  #car_item_details #car_item_card #car_item_text #item_description {
+    font-size: 10px;
+  }
+  #car_item_details #car_item_card #main_video {
+    padding: 0;
+  }
+  #car_item_details #car_item_card #main_video #main_video_container {
+    z-index: 1000;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  #car_item_details #car_item_card #main_video #main_video_container #video {
+    width: 100%;
+    height: auto;
+  }
 }/*# sourceMappingURL=portfolio.css.map */

@@ -128,6 +128,100 @@
   .main .main_card .main_card_text .main_card_btn_section .main_card_btn1,
   .main .main_card .main_card_text .main_card_btn_section .main_card_btn2 {
     height: 50px;
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .main {
+    width: 80%;
+    padding: 160px 10% 0%;
+  }
+  .main .main_card {
+    height: 400px;
+  }
+  .main .main_card .main_card_text {
+    padding: 0px 60px;
+  }
+  .main .main_card .main_card_text h1 {
+    font-size: 2.5vw;
+  }
+  .main .main_card .main_card_text h2 {
+    font-weight: 400;
+    font-size: 1.2vw;
+  }
+  .main .main_card .main_card_text .main_card_btn_section .main_card_btn1,
+  .main .main_card .main_card_text .main_card_btn_section .main_card_btn2 {
+    height: 40px;
+    font-size: 12px;
+  }
+  .main .main_card .main_card_text .main_card_btn_section .main_card_btn2 #main_btn_icon {
+    position: absolute;
+    left: -30%;
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease 0s;
+  }
+  .main .main_card .main_video {
+    padding-right: 60px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .main {
+    width: 80%;
+    padding: 160px 10% 0%;
+  }
+  .main .main_card {
+    height: 650px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .main_card .main_card_text {
+    padding: 0px 30px;
+  }
+  .main .main_card .main_card_text h1 {
+    font-size: 24px;
+  }
+  .main .main_card .main_card_text h2 {
+    font-weight: 400;
     font-size: 16px;
+  }
+  .main .main_card .main_card_text .main_card_btn_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .main .main_card .main_card_text .main_card_btn_section .main_card_btn1,
+  .main .main_card .main_card_text .main_card_btn_section .main_card_btn2 {
+    height: 40px;
+    font-size: 12px;
+    width: 185px;
+  }
+  .main .main_card .main_card_text .main_card_btn_section .main_card_btn2 {
+    margin-left: 0px;
+  }
+  .main .main_card .main_video {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    width: 90%;
+    padding: 140px 5% 0%;
+  }
+  .main .main_card {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main .main_card {
+    height: 550px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main .main_card {
+    height: 500px;
   }
 }/*# sourceMappingURL=main.css.map */

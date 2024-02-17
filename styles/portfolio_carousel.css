@@ -235,6 +235,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .carousel {
+    margin-top: 60px;
+  }
+
   .carousel__item img {
     width: calc(var(--width) * 0.5);
   }

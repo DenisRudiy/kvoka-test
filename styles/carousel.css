@@ -64,13 +64,13 @@
 
 @media screen and (max-width: 800px) {
   .carousel__item {
-    flex-basis: 15%;
+    flex-basis: 20%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .carousel__item {
-    flex-basis: 10%;
+    flex-basis: 28%;
     margin: 0 5px;
     border-radius: 8px;
     font-size: 3vw;
@@ -235,6 +235,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .carousel {
+    margin-top: 60px;
+  }
+
   .carousel__item img {
     width: calc(var(--width) * 0.5);
   }

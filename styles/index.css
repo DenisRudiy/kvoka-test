@@ -15,15 +15,11 @@ body {
   scrollbar-width: none; /* Firefox */
   font-family: "Roboto Condensed", sans-serif;
   /* Chrome, Safari, Edge, Opera */
-  /* Firefox */
 }
 body input::-webkit-outer-spin-button,
 body input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
-body input[type=number] {
-  -moz-appearance: textfield;
 }
 
 ::-webkit-scrollbar {
@@ -231,4 +227,81 @@ body input[type=number] {
 }
 .contact_form .contact_form_card div button:active {
   transform: translateY(15px);
+}
+
+@media screen and (max-width: 1150px) {
+  .footer {
+    padding: 20px 10%;
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header {
+    width: 80%;
+    padding: 0% 10%;
+  }
+  .header .navigation .nav_btn {
+    font-size: 16px;
+  }
+  .footer {
+    padding: 20px 5%;
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    width: 80%;
+    padding: 0% 10%;
+  }
+  .header .navigation .nav_btn {
+    font-size: 16px;
+  }
+  .footer {
+    padding: 20px 5%;
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header .navigation .nav_btn {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 5%;
+    padding-top: auto;
+  }
+  .footer .footer_info_1,
+  .footer .footer_info_2,
+  .footer .footer_info_3 {
+    height: auto;
+    margin: 20px 0px;
+  }
+  .contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 120px;
+  }
+  .contact_form .contact_form_card {
+    width: 95%;
+    border-radius: 25px;
+    padding: 15px;
+  }
+  .contact_form .contact_form_card h1 {
+    font-size: 5vw;
+    margin: 10px;
+  }
 }/*# sourceMappingURL=index.css.map */

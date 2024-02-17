@@ -144,10 +144,117 @@
           .main_card_btn1,
           .main_card_btn2 {
             height: 50px;
-            font-size: 16px;
+            font-size: 1vw;
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+    width: 80%;
+    padding: 160px 10% 0%;
+
+    .main_card {
+      height: 400px;
+      .main_card_text {
+        padding: 0px 60px;
+        h1 {
+          font-size: 2.5vw;
+        }
+        h2 {
+          font-weight: 400;
+          font-size: 1.2vw;
+        }
+        .main_card_btn_section {
+          .main_card_btn1,
+          .main_card_btn2 {
+            height: 40px;
+            font-size: 12px;
+          }
+          .main_card_btn2 {
+            #main_btn_icon {
+              position: absolute;
+              left: -30%;
+              width: 20px;
+              height: 20px;
+              transition: all 0.3s ease 0s;
+            }
+          }
+        }
+      }
+      .main_video {
+        padding-right: 60px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main {
+    width: 80%;
+    padding: 160px 10% 0%;
+
+    .main_card {
+      height: 650px;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .main_card_text {
+        padding: 0px 30px;
+        h1 {
+          font-size: 24px;
+        }
+        h2 {
+          font-weight: 400;
+          font-size: 16px;
+        }
+        .main_card_btn_section {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 15px;
+          .main_card_btn1,
+          .main_card_btn2 {
+            height: 40px;
+            font-size: 12px;
+            width: 185px;
+          }
+          .main_card_btn2 {
+            margin-left: 0px;
+          }
+        }
+      }
+      .main_video {
+        padding: 30px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    width: 90%;
+    padding: 140px 5% 0%;
+
+    .main_card {
+      height: 600px;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .main {
+    .main_card {
+      height: 550px;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .main {
+    .main_card {
+      height: 500px;
     }
   }
 }
